@@ -12,6 +12,16 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from imblearn.over_sampling import SMOTE
 import joblib
 
+# Developer Info (Sidebar)
+st.sidebar.title("👨‍💻 Developer Info")
+st.sidebar.markdown("""
+**Sethumadhavan V**
+- Data Analyst | ML Enthusiast
+- 📧 [sethumadhavanvelu2002@gmail.com](mailto:sethumadhavanvelu2002@gmail.com)
+- 📱 +91 91592 99878
+- 🌐 GitHub: [SETHU0010](https://github.com/SETHU0010)
+""")
+
 # 1. Title
 st.title("Water Safety Classification App")
 st.markdown("Upload water quality data to predict whether it's **Safe** or **Unsafe** for consumption.")
